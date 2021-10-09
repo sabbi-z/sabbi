@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    {% load static %}
+
+    <div class="container">
+        <DIv class="row">
+            <div class="col center">
+                <img src="{% static "media/01.jpeg" %}"  alt="avatar" class="avatar">
+                <h1>Sabbi</h1>
+                <h2>Full Stack Developer.</h2>
+            </div> 
+        </DIv>
+    </div>
+
+    {% block skill %}
+    {% endblock %}
+
+
+    
+
+
+{% endblock %}

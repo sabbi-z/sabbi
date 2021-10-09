@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('http://fonts.cdnfonts.com/css/quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+body{
+    background-color: #F1F6F9;
+    
+
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+    height: 90vh;
+    vertical-align: middle;
+    padding-top: 25vh;
+
+}
+
+.center h1{
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 10vh;
+    margin: 0vh;
+    animation: pulse;
+    animation-duration: 1.5s;
+}
+
+.center h2{
+    margin: 0vh;
+    font-family: 'Righteous', cursive;
+    animation: pulse;
+    animation-duration: 1.5s;
+}
+
+.container{
+    height: 90vh;
+}
+
+.avatar{
+    border-radius: 50%;
+    border: 5px solid #222831;
+    height: 20vh;
+    vertical-align: middle;
+    animation: fadeIn;
+    animation-duration: 1.5s;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    
+}
+
+a{
+    margin: auto;
+}
+
+
+
+.skillrow{
+    border: 5px solid #393E46;
+    border-radius: 20px;
+    padding: 20px 5vw 20px 1vw;
+    text-align: center;
+    background-color: #222831;
+}
+
+.skill{
+    padding-top: 20px;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-bottom: 10vh;
+    text-align: left;
+    color: #F1F6F9;
+    background-color: #222831;
+    margin: 0px;
+}
+
+.skill h1{
+    font-family: 'Arvo', serif;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    font-size: 45px;
+    color: #D65A31;
+}
+
+.skill h2{
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.frontend li{
+    background-color: #222831;
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: bolder;
+    color: #F1F6F9;
+    
+}
+
+.frontend{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.define{
+    width: 100%;
+    height: 100%;
+    background-color: #393E46;
+    border-radius: 10px;
+    padding: 5%;
+    color: #F1F6F9;
+}
+
+.certi{
+    color:#222831;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    padding: 2vw 20vw 2vw 20vw;
+}
+
+.certi img{
+    border: #222831 solid 5px;
+    border-radius: 30px;
+}
+
+.forms{
+    padding-top: 20px;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-bottom: 10vh;
+    text-align: center;
+    color: #F1F6F9;
+    background-color: #222831;
+    margin: 0px;
+    
+}
+
+.forms h1  {
+    font-family: 'Righteous', cursive;
+}
+.forms label{
+    color: #D65A31;
+    font-family: 'quicksand';
+    justify-self: start;
+    font-weight: bolder;
+}
+
+.formss{
+    text-align: right;
+    margin: 0vw 15vw 0vw 15vw ; 
+}
+.emailinput{
+    background-color: #393E46;
+    border: #F1F6F9 solid 1px;
+    border-radius: 10px;
+    width: 100%;
+    color: #F1F6F9;
+    font-family: 'Arvo', serif;
+    padding: 10px;
+    
+
+}
+
+.footer{
+    color: #F1F6F9;
+    background-color: #393E46;
+    text-align: center;
+    font-family: 'quicksand';
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    body{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .skillrow{
+        border: 0px;
+        padding: 20px 0px 20px 0px;
+    }
+    .skill{
+        padding: 10vw;
+        text-align: center;
+    }
+    
+    .certi{
+        padding: 2vh 1vh 2vh 1vh;
+    }
+
+    .formss{
+        text-align: right;
+        margin: 0vw 2vw 0vw 2vw ; 
+    }
+
+    .forms{
+        padding-top: 20px;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-bottom: 10vh;
+        text-align: center;
+        color: #F1F6F9;
+        background-color: #222831;
+        margin: 0px;
+        
+    }
+    
+}
